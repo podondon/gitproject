@@ -26,4 +26,27 @@ public class HomeController {
 		return "home";
 	}
 	
+	
+	
+	@RequestMapping(value = "/list")
+	public String list( Model model) {
+		
+		model.addAttribute("msg","hello git");
+		
+		return "list";
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
