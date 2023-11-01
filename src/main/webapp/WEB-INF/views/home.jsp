@@ -23,14 +23,19 @@
 		<li>리스트 추가 2</li>
 		<li>리스트 추가 3</li>
 	</ul>
+
 </body>
 <script>
 var msg= "${msg}";
 if (msg != "") {
 	alert(msg);
 }
+
 $('li').on ('click',function (){
 	alert('click');
 })
+
+
+
 </script>
 </html>
